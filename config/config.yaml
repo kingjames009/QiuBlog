@@ -8,12 +8,12 @@ Server:
   Database:
     Type: mysql
     Host: localhost
-    Port: 3307
+    Port: 3306
     User: root
-    PassWord:
+    PassWord: 123456
     Name: qiublog
     Redis:
-      Host: wsl
+      Host: localhost
       Port: 6379
       Password:
       Db: 0
